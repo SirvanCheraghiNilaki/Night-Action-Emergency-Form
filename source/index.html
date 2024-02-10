@@ -12,7 +12,6 @@
     <h1 id="title">Night Action Emergency</h1>
     <p id="description">Please fill the form below to notify us your situation</p>
     <form action="" method="post" id="survey-form">
-        <!-- DONE DONE DONE DONE -->
         <fieldset>
             <legend>Fill out your personal information</legend>
             <div id="firstFieldset">
@@ -25,41 +24,36 @@
                 <label for="name" id="name-label">IMS Code:
                     <input type="text" name="" id="code" placeholder="kjn235bneF" required>
                 </label>
-                <label for="number" id="number-label">Secret Number:
+                <label for="number" id="s-number-label">Secret Number:
                     <input type="number" name="" id="number" placeholder="8885252" min="0" max="9999999999">
                 </label>
-                <label for="">
-                    <select name="" id="dropdown">
-                        <option value="rigatoni">Rigatoni</option>
-                        <option value="dave">Dave</option>
-                        <option value="pumpernickel">Pumpernickel</option>
-                        <option value="reeses">Reeses</option>
+                <label for="dropdown">
+                    <label for="dog-names" id="mission-type-ddn">Mission Type:</label>
+                    <select name="agent-type" id="dropdown">
+                        <option value="a41-agent">A41 Agent</option>
+                        <option value="p24-agent">P24 Agent</option>
+                        <option value="b724-agent">B724 Agent</option>
+                        <option value="s00-agent">S00 Agent</option>
                     </select>
                 </label>
             </div>
         </fieldset>
         <fieldset>
-            <legend>Select a maintenance drone:</legend>
+            <!-- DONE DONE DONE DONE -->
+            <legend>Peril potential rate:</legend>
             <div>
-                <input type="radio" id="huey" name="drone" value="huey" checked />
-                <label for="huey">Huey</label>
+                <input type="radio" id="xhppr" name="ppr" value="xhppr" checked />
+                <label for="xhppr">Extremely High</label>
             </div>
             <div>
-                <input type="radio" id="dewey" name="drone" value="dewey" />
-                <label for="dewey">Dewey</label>
+                <input type="radio" id="hppr" name="ppr" value="hppr" />
+                <label for="hppr">High</label>
             </div>
             <div>
-                <input type="radio" id="louie" name="drone" value="louie" />
-                <label for="louie">Louie</label>
+                <input type="radio" id="wbp" name="ppr" value="wbp" />
+                <label for="wbp">Would not matter</label>
             </div>
         </fieldset>
-        <label for="dog-names">Choose a dog name:</label>
-        <select name="dog-names" id="dog-names">
-            <option value="rigatoni">Rigatoni</option>
-            <option value="dave">Dave</option>
-            <option value="pumpernickel">Pumpernickel</option>
-            <option value="reeses">Reeses</option>
-        </select>
         <fieldset>
             <legend>Choose your monster's features:</legend>
 
