@@ -48,7 +48,11 @@ input[type=text], input[type=email], input[type=number] {
         height: 20px;
         width: 75%;
         max-width: 300px;
-        margin: 0 auto 0 auto;
+        margin: 5px auto 15px auto;
+}
+
+::placeholder {
+    padding-left: 3px;
 }
 
 #name-label {
