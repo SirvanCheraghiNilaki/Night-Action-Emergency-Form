@@ -1,0 +1,55 @@
+body {
+    background-color: burlywood;
+}
+
+#title {
+    text-align: center;
+    margin: 80px auto 20px auto;
+    color: azure;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    
+}
+
+#description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: azure;
+    margin: -10px auto 30px auto;
+}
+
+#survey-form {}
+
+#name-label {}
+
+#name-label {}
+
+#name {}
+
+#email-label {}
+
+#email {}
+
+#number-label {}
+
+#number {}
+
+#dropdown {}
+
+#huey {}
+
+#dewey {}
+
+#louie {}
+
+#dog-names {}
+
+#scales {}
+
+#horns {}
+
+#story {}
+
+#submit {}
