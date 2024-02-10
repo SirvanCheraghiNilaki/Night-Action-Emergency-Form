@@ -48,16 +48,21 @@ input[type=text], input[type=email], input[type=number] {
         height: 20px;
         width: 75%;
         max-width: 300px;
-        margin: 5px auto 15px auto;
+        position: relative;
+        margin: 5px auto 15px 0;
+}
+
+label {
+    position: relative;
+
+}
+
+#firstFieldset {
+    margin: 0 auto 0 20%;
 }
 
 ::placeholder {
     padding-left: 3px;
-}
-
-#name-label {
-    display: block;
-    margin: 0 auto 0 auto;
 }
 
 #name {
@@ -71,18 +76,8 @@ input[type=text], input[type=email], input[type=number] {
     align-items: center;
 }
 
-#email-label {
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
 #email {
     display: block;
-}
-
-#number-label {
-    display: block;
-    margin: 0 auto 0 auto;
 }
 
 #number {
