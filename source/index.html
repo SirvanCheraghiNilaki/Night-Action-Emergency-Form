@@ -13,17 +13,29 @@
     <p id="description">Please fill the form below to notify us your situation</p>
     <form action="" method="post" id="survey-form">
         <!-- DONE DONE DONE DONE -->
-        <label for="name" id="name-label">Enter your
-        name: <input type="text" name="" id="name" placeholder="Alex" required></label>
-        <label for="email" id="email-label">Enter your email: <input type="email" name="" id="email" placeholder="mail@mail.com" required></label>
-        <label for="number" id="number-label">Enter a number: <input type="number" name="" id="number"
-                placeholder="a number between 13 and 120" min="13" max="120"></label>
-        <label for=""><select name="" id="dropdown">
-                <option value="rigatoni">Rigatoni</option>
-                <option value="dave">Dave</option>
-                <option value="pumpernickel">Pumpernickel</option>
-                <option value="reeses">Reeses</option>
-            </select></label>
+        <fieldset>
+            <legend>Fill out your personal information</legend>
+            <label for="name" id="name-label">Enter your name:
+                <input type="text" name="" id="name" placeholder="Alex" required>
+            </label>
+            <label for="email" id="email-label">Enter your email:
+                <input type="email" name="" id="email" placeholder="mail@mail.com" required>
+            </label>
+            <label for="name" id="name-label">Enter your IMS Code:
+                <input type="text" name="" id="code" placeholder="kjn235bneF" required>
+            </label>
+            <label for="number" id="number-label">Enter a number:
+                <input type="number" name="" id="number" placeholder="a number between 13 and 120" min="13" max="120">
+            </label>
+            <label for="">
+                <select name="" id="dropdown">
+                    <option value="rigatoni">Rigatoni</option>
+                    <option value="dave">Dave</option>
+                    <option value="pumpernickel">Pumpernickel</option>
+                    <option value="reeses">Reeses</option>
+                </select>
+            </label>
+        </fieldset>
         <fieldset>
             <legend>Select a maintenance drone:</legend>
             <div>

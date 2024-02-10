@@ -23,12 +23,21 @@ body {
 #survey-form {
     background-color: rgba(20, 20, 20, 0.6);
     padding: 30px 15px 25px 15px;
-    width: 550px;
+    width: 50%;
+    max-width: 550px;
     margin: 0 auto 0 auto;
     border-radius: 15px;
     box-shadow: 5px 5px 5px -0px;
     color: cornsilk;
 }
+
+fieldset {
+    border-radius: 15px;
+    margin: 10px auto 5px auto;
+    padding: 15px;
+}
+
+
 
 #name-label {
     display: block;
@@ -36,6 +45,11 @@ body {
 }
 
 #name {
+    display: block;
+    align-items: center;
+}
+
+#code {
     display: block;
     align-items: center;
 }
