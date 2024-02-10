@@ -4,7 +4,7 @@ body {
 
 #title {
     text-align: center;
-    margin: 80px auto 20px auto;
+    margin: 20px auto 20px auto;
     color: azure;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
@@ -25,7 +25,7 @@ body {
     padding: 30px 15px 25px 15px;
     width: 50%;
     max-width: 550px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 20px auto;
     border-radius: 15px;
     box-shadow: 5px 5px 5px -0px;
     color: cornsilk;
@@ -123,15 +123,15 @@ input[type=radio] {
     display: inline;
 }
 
-#huey {}
+table {
+    margin: 0 auto 0 auto;
+    position: relative;
+}
 
-#dewey {}
-
-#louie {}
-
-#dog-names {}
-
-#scales {}
+input[type=checkbox] {
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
 
 #horns {}
 
